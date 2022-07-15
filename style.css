@@ -53,14 +53,20 @@ nav ul li{
 .btn {
     display: inline-block;
     background: transparent;
-    padding: 8px 5px;
+    padding: 4px 2px;;
     border-radius: 12px;
 
+}
+
+.content .btn:hover{
+    text-decoration:underline;
+    border-style: none;
 }
 
 .btn:hover{
     border-style: dashed;
 }
+
 
 .cover {
     max-width: 100%;
@@ -92,6 +98,13 @@ nav ul li{
     justify-content: space-around;
 }
 
+.row-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 318px;
+}
 .col{
     flex-basis: 50%;
     width: 50%;
@@ -102,8 +115,19 @@ nav ul li{
    
 }
 
+.col{
+    flex-basis: 50%;
+    width: 50%;
+    height: 381px;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(101, 50, 11);
+   
+}
+
 .col p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
 }
 
 .contents{
@@ -112,8 +136,12 @@ nav ul li{
 
 .content {
     background-color: bisque;
-    margin-left: 50px;
+    box-shadow: 10px 10px 8px #ba6205;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
     margin-right: 50px;
     margin-top: 15px;
+    border-radius: 15px;
 
 }
