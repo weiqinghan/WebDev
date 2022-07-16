@@ -6,7 +6,7 @@
 
 .name{
     text-align: center;
-    background-color: rgb(92, 121, 199);
+    background: rgb(92, 121, 199);
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -31,6 +31,7 @@ a{
     color: rgb(28, 97, 209);
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
+    transition: all 0.3s;
 }
 
 nav{
@@ -48,7 +49,33 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    position: relative;
 }
+
+nav ul li a:hover{
+    color:rgb(205, 111, 39);
+}
+
+.dropdown-menu{
+    display: none;
+    transition: all 0.3s;
+}
+
+nav ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 10px 10px 8px #85a0c7;
+}
+
+nav ul li:hover .dropdown-menu .ul{
+    display: block;
+    margin: 10px;
+}
+
 
 .btn {
     display: inline-block;
@@ -58,15 +85,23 @@ nav ul li{
 
 }
 
+.content .btn{
+    font-size: 1.4vw;
+}
+
 .content .btn:hover{
     text-decoration:underline;
     border-style: none;
 }
 
-.btn:hover{
-    border-style: dashed;
-}
+.back-to-top {
+    font-family: 'Oswald', sans-serif;
+    color:rgb(28, 97, 209);
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
 
+}
 
 .cover {
     max-width: 100%;
@@ -88,7 +123,7 @@ nav ul li{
 
 .blank-container3{
     width: 100%;
-    height: 80px;
+    height: 10px;
 }
 
 .row{
@@ -96,6 +131,7 @@ nav ul li{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    min-width: 1000px;
 }
 
 .row-1{
@@ -104,16 +140,20 @@ nav ul li{
     flex-wrap: wrap;
     justify-content: space-around;
     height: 318px;
+    min-width: 1000px;
 }
-.col{
-    flex-basis: 50%;
-    width: 50%;
-    height: 90px;
-    padding: 20px;
-    font-family: 'Oswald', sans-serif;
-    color:rgb(101, 50, 11);
-   
+.row-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 318px;
+    min-width: 1000px;
+    flex-direction: column-reverse;
+    margin:10px;
 }
+
+
 
 .col{
     flex-basis: 50%;
@@ -122,7 +162,29 @@ nav ul li{
     padding: 20px;
     font-family: 'Oswald', sans-serif;
     color:rgb(101, 50, 11);
+    min-width: 300px;
    
+}
+
+
+.col-1{
+    flex-basis: 50%;
+    width: 50%;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(101, 50, 11);
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.col-num{
+    flex-basis: 30%;
+    padding-left: 15%;
+}
+
+.col-num-2{
+    flex-basis: 30%;
+    padding-right: 15%;
 }
 
 .col p{
@@ -132,6 +194,7 @@ nav ul li{
 
 .contents{
     font-family: 'Oswald', sans-serif;
+    font-size: 1.1vw;
 }
 
 .content {
@@ -139,9 +202,11 @@ nav ul li{
     box-shadow: 10px 10px 8px #ba6205;
     padding-left: 30px;
     padding-right: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-right: 50px;
     margin-top: 15px;
     border-radius: 15px;
+    min-height: 200px;
+    width: 50vw;
 
 }
