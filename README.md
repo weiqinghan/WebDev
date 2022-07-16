@@ -1,2 +1,15 @@
-# WebDev
-Web Development Project
+# WebDev Project-UF ew Student Guide
+This is a Web Development Project that aims to provide all the essential information for new students at UF. It has responsive website design with the use of HTML, CSS, and JavaScript.
+
+
+## Structure of the website
+- Home page
+- About page
+- Articles dropdown menu that contains three web pages: (still in process of development)
+  - UF Preview Guide
+  - New Student Guide (Useful links and apps)
+  - Apartments in Gainesville
+- Contact page
+
+
+## Features implemented
