@@ -2,7 +2,7 @@
 This is a Web Development Project that aims to provide all the essential information for new students at UF. It has responsive website design with the use of HTML, CSS, and JavaScript. I am aiming to implement more features that involve PHP and MySQL database very soon.
 
  Deployment using [GitHub Pages](https://weiqinghan.github.io/WebDev/).
-        - TODO: Fixing the problem of Home page image not displaying on Github Pages.
+ - TODO: Fixing the problem of Home page image not displaying on Github Pages.
 
 
 ## Structure of the website
