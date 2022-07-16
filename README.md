@@ -10,7 +10,7 @@ This is a Web Development Project that aims to provide all the essential informa
 - About page
 - Articles dropdown menu that contains three web pages: (still in process of development)
   - UF Preview Guide
-  - New Student Guide (Useful links and apps)
+  - New Student Guide - Useful links and apps
   - Apartments in Gainesville
 - Contact page
 
