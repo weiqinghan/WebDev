@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
         <div class="navigation">
             <div class="name">
                 <h2>- Sharing About UF -</h2>
@@ -35,6 +34,7 @@
             </nav>
         </div>
         <div class="blank-container4"></div>
+        <div class="blank-container4"></div>
         
         <div class="row-c">
             <div class="col-c-1">
@@ -45,6 +45,40 @@
                 <img src="./images/feedback.png" class="feedbackpic" />
             </div>
         </div>
-    </div>
+
+        <div class="form">
+            <form action="submission.html" method="POST">
+            
+                <label for="name">Name:</label>
+                <br/>
+                <input type="text" name="name" id="name">
+                <br/>
+                <label for="email">Email:</label>
+                <br/>
+                <input type="text" name="email" id="email">
+                <br/>
+                <label for="source">How did you find this website?</label>
+                <br/>
+                <select name="source" id="source">
+                    <option value="Select">Click to select</option>
+                    <option value="Browser">Browser Searches</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Youtube">Youtube Channel</option>
+                    <option value="Instagram">Instagram</option>
+                  </select>
+                <br/>
+                <label for="subject">Subject:</label>
+                <br/>
+                <input type="text" name="subject" id="subject">
+                <br/>
+                <label for="message">Your message:</label>
+                <br/>
+                <textarea id="message" name="message" rows="3" cols="40" placeholder="Questions, comments, concerns?"></textarea>
+                <br/>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="blank-container4"></div>
+
 </body>
 </html>
