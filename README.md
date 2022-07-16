@@ -26,4 +26,5 @@ This is a Web Development Project that aims to provide all the essential informa
 - Finish designing the articles page
 - Home page surprise -> add animation pop-up when user scrolls to the bottom of the page
 - Add clickable menu icon and hidden navigation bar for mobile viewer of the website
+- Improving Siteimprove score
 
