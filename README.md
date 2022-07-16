@@ -16,4 +16,14 @@ This is a Web Development Project that aims to provide all the essential informa
 
 
 ## Features implemented
+- Navigation bar remains on page
+- Navigation menu text changes color when mouse is hovering over it
+- Home page showing listing of the articles and hyperlinks which leads to the appropriate html file for the articles
+- Home page has a "back to top" button which smoothly brings the viewing window back to the top of the home page
+
+
+## Todo-List:
+- Finish designing the articles page
+- Home page surprise -> add animation pop-up when user scrolls to the bottom of the page
+- Add clickable menu icon and hidden navigation bar for mobile viewer of the website
 
